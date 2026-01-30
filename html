@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foreclothing.id</title>
+  <style>
+    :root {
+      --navy: #0f1b2d;
+      --gray: #f2f2f2;
+      --dark-gray: #555;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: var(--gray);
+      color: #111;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--navy), #1f3a5f);
+      color: var(--white);
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      letter-spacing: 3px;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 16px;
+      opacity: 0.85;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: -60px auto 80px;
+      padding: 0 20px;
+    }
+
+    .card {
+      background-color: var(--white);
+      border-radius: 16px;
+      padding: 40px;
+      margin-bottom: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: var(--navy);
+      letter-spacing: 2px;
+      font-size: 22px;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .card h2::after {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: var(--navy);
+      display: block;
+      margin-top: 10px;
+      border-radius: 2px;
+    }
+
+    .card p {
+      line-height: 1.8;
+      color: var(--dark-gray);
+      font-size: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .feature {
+      background-color: var(--gray);
+      border-radius: 14px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .feature h3 {
+      margin: 0 0 10px;
+      color: var(--navy);
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+
+    .feature p {
+      margin: 0;
+      font-size: 14px;
+      color: #666;
+    }
+
+    footer {
+      background-color: var(--navy);
+      color: #ccc;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FORECLOTHING.ID</h1>
+    <p>Less noise, more meaning.</p>
+  </header>
+
+  <main>
+
+    <section class="card" id="about-us">
+      <h2>ABOUT US</h2>
+      <p>
+        Foreclothing.id lahir dari keinginan untuk menciptakan clothing yang simple,
+        relevan, dan bisa dipakai siapa saja. Kami percaya bahwa pakaian adalah cara
+        seseorang mengekspresikan diri—tanpa harus berisik.
+      </p>
+      <p>
+        Setiap desain dibuat dengan konsep minimal, detail yang matang, dan kualitas
+        yang kami jaga. Foreclothing.id hadir untuk menemani keseharianmu, dari aktivitas
+        santai sampai momen penting.
+      </p>
+    </section>
+
+    <section class="card" id="products">
+      <h2>PRODUCTS</h2>
+      <p>
+        Produk Foreclothing.id dibuat dengan desain timeless, material nyaman,
+        dan cutting yang clean. Kami menciptakan piece yang bisa dipakai
+        berulang kali tanpa kehilangan karakter.
+      </p>
+      <p>
+        Simple. Functional. Confident.
+      </p>
+    </section>
+
+    <section class="card" id="why-us">
+      <h2>WHY US</h2>
+      <div class="grid">
+        <div class="feature">
+          <h3>MINIMAL DESIGN</h3>
+          <p>Desain clean dengan karakter kuat</p>
+        </div>
+        <div class="feature">
+          <h3>QUALITY MATERIAL</h3>
+          <p>Nyaman dipakai seharian</p>
+        </div>
+        <div class="feature">
+          <h3>LOCAL BRAND</h3>
+          <p>Dibuat dengan identitas yang jelas</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Foreclothing.id — Local Brand Indonesia
+  </footer>
+
+</body>
+</html>
